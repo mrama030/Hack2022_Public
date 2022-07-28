@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Hack2022.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AzureFileShareName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">builds</Value>
+    </Setting>
+    <Setting Name="AzureFileShareConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=fileserverstdus;AccountKey={accountKey}==;EndpointSuffix=core.windows.net</Value>
+    </Setting>
+    <Setting Name="EGInstallWSExePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Counters\bin\EGInstallWSPackage.exe</Value>
+    </Setting>
+    <Setting Name="DownloadsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ecpQuickTool\Downloads</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZoBWm8lZggL6IKPoVRYiC3Be3EFJwLKM+DBdl9OzU4/Ex3o7cXsFBz9oqtapuEm1L2/+aF5G8w+J868IKXKOWg==",
+  "success": true,
+  "projectFilePath": "C:\\zReposCustom\\Hack2022\\Hack2022\\Hack2022.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\azure.storage.blobs\\12.13.0\\azure.storage.blobs.12.13.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\azure.storage.common\\12.12.0\\azure.storage.common.12.12.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\azure.storage.files.shares\\12.11.0\\azure.storage.files.shares.12.11.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.io.hashing\\6.0.0\\system.io.hashing.6.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
