@@ -479,5 +479,24 @@ namespace Hack2022
 
 
         #endregion
+
+        #region Menu Items
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(this.menuStrip1, "Created by Mohamed Ali Ramadan for the 2022 Hack-a-thon @ Escher Group.", "About");
+        }
+
+        private void guideToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(this.menuStrip1, 
+                            "This tool allows to quickly get a list of all the latest versions for RiposteCore and EssentialCP POS workstation software. " +
+                            "Once a desired version is selected, user has the ability to download the files and also trigger the install commands. " +
+                            "It is recommended to only use this tool if the Install commands work on your local system as error handling/logging " +
+                            "is not implemented in this version. If there are errors, investiate them using the standard command line and come back to this " +
+                            "tool once errors are resolved. Make sure to reboot after every succesful installation.", "Guide");
+        }
+
+        #endregion
     }
 }

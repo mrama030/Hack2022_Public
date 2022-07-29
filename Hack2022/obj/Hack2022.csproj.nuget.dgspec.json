@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\zReposCustom\\Hack2022\\Hack2022\\Hack2022.csproj": {}
+    "C:\\zReposCustom\\Hack2022_Public\\Hack2022\\Hack2022.csproj": {}
   },
   "projects": {
-    "C:\\zReposCustom\\Hack2022\\Hack2022\\Hack2022.csproj": {
+    "C:\\zReposCustom\\Hack2022_Public\\Hack2022\\Hack2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\zReposCustom\\Hack2022\\Hack2022\\Hack2022.csproj",
+        "projectUniqueName": "C:\\zReposCustom\\Hack2022_Public\\Hack2022\\Hack2022.csproj",
         "projectName": "Hack2022",
-        "projectPath": "C:\\zReposCustom\\Hack2022\\Hack2022\\Hack2022.csproj",
+        "projectPath": "C:\\zReposCustom\\Hack2022_Public\\Hack2022\\Hack2022.csproj",
         "packagesPath": "C:\\Users\\mohamed.ramaden\\.nuget\\packages\\",
-        "outputPath": "C:\\zReposCustom\\Hack2022\\Hack2022\\obj\\",
+        "outputPath": "C:\\zReposCustom\\Hack2022_Public\\Hack2022\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
