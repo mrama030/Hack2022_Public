@@ -83,6 +83,9 @@ namespace Hack2022
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabRiposteCore.SuspendLayout();
             this.tabECP.SuspendLayout();
@@ -103,6 +106,7 @@ namespace Hack2022
             // 
             // tabRiposteCore
             // 
+            this.tabRiposteCore.Controls.Add(this.label9);
             this.tabRiposteCore.Controls.Add(this.textBoxRiposteCore_CurrentVersion_Location);
             this.tabRiposteCore.Controls.Add(this.labelRiposteCore_CurrentVersion_Version);
             this.tabRiposteCore.Controls.Add(this.label8);
@@ -128,7 +132,7 @@ namespace Hack2022
             // 
             // textBoxRiposteCore_CurrentVersion_Location
             // 
-            this.textBoxRiposteCore_CurrentVersion_Location.Location = new System.Drawing.Point(512, 187);
+            this.textBoxRiposteCore_CurrentVersion_Location.Location = new System.Drawing.Point(512, 201);
             this.textBoxRiposteCore_CurrentVersion_Location.Name = "textBoxRiposteCore_CurrentVersion_Location";
             this.textBoxRiposteCore_CurrentVersion_Location.ReadOnly = true;
             this.textBoxRiposteCore_CurrentVersion_Location.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
@@ -139,7 +143,7 @@ namespace Hack2022
             // 
             this.labelRiposteCore_CurrentVersion_Version.AutoSize = true;
             this.labelRiposteCore_CurrentVersion_Version.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelRiposteCore_CurrentVersion_Version.Location = new System.Drawing.Point(598, 247);
+            this.labelRiposteCore_CurrentVersion_Version.Location = new System.Drawing.Point(598, 261);
             this.labelRiposteCore_CurrentVersion_Version.Name = "labelRiposteCore_CurrentVersion_Version";
             this.labelRiposteCore_CurrentVersion_Version.Size = new System.Drawing.Size(139, 20);
             this.labelRiposteCore_CurrentVersion_Version.TabIndex = 14;
@@ -149,7 +153,7 @@ namespace Hack2022
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(512, 247);
+            this.label8.Location = new System.Drawing.Point(512, 261);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 20);
             this.label8.TabIndex = 12;
@@ -159,7 +163,7 @@ namespace Hack2022
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(512, 146);
+            this.label7.Location = new System.Drawing.Point(512, 160);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 20);
             this.label7.TabIndex = 11;
@@ -169,7 +173,7 @@ namespace Hack2022
             // 
             this.labelRiposteCore_CurrentVersionTitle.AutoSize = true;
             this.labelRiposteCore_CurrentVersionTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelRiposteCore_CurrentVersionTitle.Location = new System.Drawing.Point(559, 64);
+            this.labelRiposteCore_CurrentVersionTitle.Location = new System.Drawing.Point(537, 78);
             this.labelRiposteCore_CurrentVersionTitle.Name = "labelRiposteCore_CurrentVersionTitle";
             this.labelRiposteCore_CurrentVersionTitle.Size = new System.Drawing.Size(144, 25);
             this.labelRiposteCore_CurrentVersionTitle.TabIndex = 10;
@@ -179,7 +183,7 @@ namespace Hack2022
             // 
             this.labelRiposteCore_DownloadTitle.AutoSize = true;
             this.labelRiposteCore_DownloadTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelRiposteCore_DownloadTitle.Location = new System.Drawing.Point(144, 64);
+            this.labelRiposteCore_DownloadTitle.Location = new System.Drawing.Point(144, 78);
             this.labelRiposteCore_DownloadTitle.Name = "labelRiposteCore_DownloadTitle";
             this.labelRiposteCore_DownloadTitle.Size = new System.Drawing.Size(190, 25);
             this.labelRiposteCore_DownloadTitle.TabIndex = 9;
@@ -188,7 +192,7 @@ namespace Hack2022
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(50, 328);
+            this.label6.Location = new System.Drawing.Point(50, 342);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 15);
             this.label6.TabIndex = 8;
@@ -196,14 +200,14 @@ namespace Hack2022
             // 
             // progressBarRiposteCore_Download
             // 
-            this.progressBarRiposteCore_Download.Location = new System.Drawing.Point(172, 320);
+            this.progressBarRiposteCore_Download.Location = new System.Drawing.Point(172, 334);
             this.progressBarRiposteCore_Download.Name = "progressBarRiposteCore_Download";
             this.progressBarRiposteCore_Download.Size = new System.Drawing.Size(190, 23);
             this.progressBarRiposteCore_Download.TabIndex = 7;
             // 
             // buttonRiposteCore_DownloadInstall
             // 
-            this.buttonRiposteCore_DownloadInstall.Location = new System.Drawing.Point(287, 277);
+            this.buttonRiposteCore_DownloadInstall.Location = new System.Drawing.Point(287, 291);
             this.buttonRiposteCore_DownloadInstall.Name = "buttonRiposteCore_DownloadInstall";
             this.buttonRiposteCore_DownloadInstall.Size = new System.Drawing.Size(75, 23);
             this.buttonRiposteCore_DownloadInstall.TabIndex = 6;
@@ -213,7 +217,7 @@ namespace Hack2022
             // 
             // buttonRiposteCore_Download
             // 
-            this.buttonRiposteCore_Download.Location = new System.Drawing.Point(172, 277);
+            this.buttonRiposteCore_Download.Location = new System.Drawing.Point(172, 291);
             this.buttonRiposteCore_Download.Name = "buttonRiposteCore_Download";
             this.buttonRiposteCore_Download.Size = new System.Drawing.Size(97, 23);
             this.buttonRiposteCore_Download.TabIndex = 5;
@@ -224,7 +228,7 @@ namespace Hack2022
             // labelRiposteCore_SubVersion
             // 
             this.labelRiposteCore_SubVersion.AutoSize = true;
-            this.labelRiposteCore_SubVersion.Location = new System.Drawing.Point(50, 235);
+            this.labelRiposteCore_SubVersion.Location = new System.Drawing.Point(50, 249);
             this.labelRiposteCore_SubVersion.Name = "labelRiposteCore_SubVersion";
             this.labelRiposteCore_SubVersion.Size = new System.Drawing.Size(70, 15);
             this.labelRiposteCore_SubVersion.TabIndex = 4;
@@ -233,7 +237,7 @@ namespace Hack2022
             // labelRiposteCore_Version
             // 
             this.labelRiposteCore_Version.AutoSize = true;
-            this.labelRiposteCore_Version.Location = new System.Drawing.Point(50, 187);
+            this.labelRiposteCore_Version.Location = new System.Drawing.Point(50, 201);
             this.labelRiposteCore_Version.Name = "labelRiposteCore_Version";
             this.labelRiposteCore_Version.Size = new System.Drawing.Size(45, 15);
             this.labelRiposteCore_Version.TabIndex = 3;
@@ -243,7 +247,7 @@ namespace Hack2022
             // 
             this.comboBoxRiposteCode_SubVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRiposteCode_SubVersion.FormattingEnabled = true;
-            this.comboBoxRiposteCode_SubVersion.Location = new System.Drawing.Point(172, 228);
+            this.comboBoxRiposteCode_SubVersion.Location = new System.Drawing.Point(172, 242);
             this.comboBoxRiposteCode_SubVersion.Name = "comboBoxRiposteCode_SubVersion";
             this.comboBoxRiposteCode_SubVersion.Size = new System.Drawing.Size(142, 23);
             this.comboBoxRiposteCode_SubVersion.TabIndex = 2;
@@ -253,7 +257,7 @@ namespace Hack2022
             // 
             this.comboBoxRiposteCore_Version.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxRiposteCore_Version.FormattingEnabled = true;
-            this.comboBoxRiposteCore_Version.Location = new System.Drawing.Point(172, 180);
+            this.comboBoxRiposteCore_Version.Location = new System.Drawing.Point(172, 194);
             this.comboBoxRiposteCore_Version.Name = "comboBoxRiposteCore_Version";
             this.comboBoxRiposteCore_Version.Size = new System.Drawing.Size(142, 23);
             this.comboBoxRiposteCore_Version.TabIndex = 1;
@@ -261,7 +265,7 @@ namespace Hack2022
             // 
             // buttonRiposteCore_GetVersions
             // 
-            this.buttonRiposteCore_GetVersions.Location = new System.Drawing.Point(172, 127);
+            this.buttonRiposteCore_GetVersions.Location = new System.Drawing.Point(172, 141);
             this.buttonRiposteCore_GetVersions.Name = "buttonRiposteCore_GetVersions";
             this.buttonRiposteCore_GetVersions.Size = new System.Drawing.Size(121, 23);
             this.buttonRiposteCore_GetVersions.TabIndex = 0;
@@ -271,6 +275,7 @@ namespace Hack2022
             // 
             // tabECP
             // 
+            this.tabECP.Controls.Add(this.label17);
             this.tabECP.Controls.Add(this.textBoxECP_CurrentVersion_Location);
             this.tabECP.Controls.Add(this.labelECP_CurrentVersion_Version);
             this.tabECP.Controls.Add(this.label10);
@@ -296,7 +301,7 @@ namespace Hack2022
             // 
             // textBoxECP_CurrentVersion_Location
             // 
-            this.textBoxECP_CurrentVersion_Location.Location = new System.Drawing.Point(512, 186);
+            this.textBoxECP_CurrentVersion_Location.Location = new System.Drawing.Point(512, 202);
             this.textBoxECP_CurrentVersion_Location.Name = "textBoxECP_CurrentVersion_Location";
             this.textBoxECP_CurrentVersion_Location.ReadOnly = true;
             this.textBoxECP_CurrentVersion_Location.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
@@ -307,7 +312,7 @@ namespace Hack2022
             // 
             this.labelECP_CurrentVersion_Version.AutoSize = true;
             this.labelECP_CurrentVersion_Version.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelECP_CurrentVersion_Version.Location = new System.Drawing.Point(598, 246);
+            this.labelECP_CurrentVersion_Version.Location = new System.Drawing.Point(598, 262);
             this.labelECP_CurrentVersion_Version.Name = "labelECP_CurrentVersion_Version";
             this.labelECP_CurrentVersion_Version.Size = new System.Drawing.Size(134, 20);
             this.labelECP_CurrentVersion_Version.TabIndex = 29;
@@ -317,7 +322,7 @@ namespace Hack2022
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(512, 246);
+            this.label10.Location = new System.Drawing.Point(512, 262);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 20);
             this.label10.TabIndex = 28;
@@ -327,7 +332,7 @@ namespace Hack2022
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(512, 145);
+            this.label11.Location = new System.Drawing.Point(512, 161);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(69, 20);
             this.label11.TabIndex = 27;
@@ -337,7 +342,7 @@ namespace Hack2022
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(559, 63);
+            this.label12.Location = new System.Drawing.Point(551, 79);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(144, 25);
             this.label12.TabIndex = 26;
@@ -347,7 +352,7 @@ namespace Hack2022
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(144, 63);
+            this.label13.Location = new System.Drawing.Point(144, 79);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(190, 25);
             this.label13.TabIndex = 25;
@@ -356,7 +361,7 @@ namespace Hack2022
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(50, 327);
+            this.label14.Location = new System.Drawing.Point(50, 343);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(52, 15);
             this.label14.TabIndex = 24;
@@ -364,14 +369,14 @@ namespace Hack2022
             // 
             // progressBar_ECP_ProgressBar
             // 
-            this.progressBar_ECP_ProgressBar.Location = new System.Drawing.Point(172, 319);
+            this.progressBar_ECP_ProgressBar.Location = new System.Drawing.Point(172, 335);
             this.progressBar_ECP_ProgressBar.Name = "progressBar_ECP_ProgressBar";
             this.progressBar_ECP_ProgressBar.Size = new System.Drawing.Size(190, 23);
             this.progressBar_ECP_ProgressBar.TabIndex = 23;
             // 
             // button_ECP_DownloadAndInstall
             // 
-            this.button_ECP_DownloadAndInstall.Location = new System.Drawing.Point(287, 276);
+            this.button_ECP_DownloadAndInstall.Location = new System.Drawing.Point(287, 292);
             this.button_ECP_DownloadAndInstall.Name = "button_ECP_DownloadAndInstall";
             this.button_ECP_DownloadAndInstall.Size = new System.Drawing.Size(75, 23);
             this.button_ECP_DownloadAndInstall.TabIndex = 22;
@@ -381,7 +386,7 @@ namespace Hack2022
             // 
             // button_ECP_Download
             // 
-            this.button_ECP_Download.Location = new System.Drawing.Point(172, 276);
+            this.button_ECP_Download.Location = new System.Drawing.Point(172, 292);
             this.button_ECP_Download.Name = "button_ECP_Download";
             this.button_ECP_Download.Size = new System.Drawing.Size(97, 23);
             this.button_ECP_Download.TabIndex = 21;
@@ -392,7 +397,7 @@ namespace Hack2022
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(50, 234);
+            this.label15.Location = new System.Drawing.Point(50, 250);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(70, 15);
             this.label15.TabIndex = 20;
@@ -401,7 +406,7 @@ namespace Hack2022
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(50, 186);
+            this.label16.Location = new System.Drawing.Point(50, 202);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(45, 15);
             this.label16.TabIndex = 19;
@@ -411,7 +416,7 @@ namespace Hack2022
             // 
             this.comboBox_ECP_SubVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_ECP_SubVersion.FormattingEnabled = true;
-            this.comboBox_ECP_SubVersion.Location = new System.Drawing.Point(172, 227);
+            this.comboBox_ECP_SubVersion.Location = new System.Drawing.Point(172, 243);
             this.comboBox_ECP_SubVersion.Name = "comboBox_ECP_SubVersion";
             this.comboBox_ECP_SubVersion.Size = new System.Drawing.Size(142, 23);
             this.comboBox_ECP_SubVersion.TabIndex = 18;
@@ -421,7 +426,7 @@ namespace Hack2022
             // 
             this.comboBox_ECP_Version.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_ECP_Version.FormattingEnabled = true;
-            this.comboBox_ECP_Version.Location = new System.Drawing.Point(172, 179);
+            this.comboBox_ECP_Version.Location = new System.Drawing.Point(172, 195);
             this.comboBox_ECP_Version.Name = "comboBox_ECP_Version";
             this.comboBox_ECP_Version.Size = new System.Drawing.Size(142, 23);
             this.comboBox_ECP_Version.TabIndex = 17;
@@ -429,7 +434,7 @@ namespace Hack2022
             // 
             // button_ECP_GetVersionsList
             // 
-            this.button_ECP_GetVersionsList.Location = new System.Drawing.Point(172, 126);
+            this.button_ECP_GetVersionsList.Location = new System.Drawing.Point(172, 142);
             this.button_ECP_GetVersionsList.Name = "button_ECP_GetVersionsList";
             this.button_ECP_GetVersionsList.Size = new System.Drawing.Size(121, 23);
             this.button_ECP_GetVersionsList.TabIndex = 16;
@@ -440,6 +445,7 @@ namespace Hack2022
             // tabSettings
             // 
             this.tabSettings.Controls.Add(this.buttonSaveAllSettings);
+            this.tabSettings.Controls.Add(this.label18);
             this.tabSettings.Controls.Add(this.buttonSavePathSettings);
             this.tabSettings.Controls.Add(this.buttonEGInstallWSPathBrowse);
             this.tabSettings.Controls.Add(this.buttonDownloadsPathBrowse);
@@ -464,7 +470,7 @@ namespace Hack2022
             // 
             // buttonSaveAllSettings
             // 
-            this.buttonSaveAllSettings.Location = new System.Drawing.Point(253, 376);
+            this.buttonSaveAllSettings.Location = new System.Drawing.Point(697, 36);
             this.buttonSaveAllSettings.Name = "buttonSaveAllSettings";
             this.buttonSaveAllSettings.Size = new System.Drawing.Size(135, 23);
             this.buttonSaveAllSettings.TabIndex = 15;
@@ -474,7 +480,7 @@ namespace Hack2022
             // 
             // buttonSavePathSettings
             // 
-            this.buttonSavePathSettings.Location = new System.Drawing.Point(442, 333);
+            this.buttonSavePathSettings.Location = new System.Drawing.Point(439, 390);
             this.buttonSavePathSettings.Name = "buttonSavePathSettings";
             this.buttonSavePathSettings.Size = new System.Drawing.Size(154, 23);
             this.buttonSavePathSettings.TabIndex = 14;
@@ -484,7 +490,7 @@ namespace Hack2022
             // 
             // buttonEGInstallWSPathBrowse
             // 
-            this.buttonEGInstallWSPathBrowse.Location = new System.Drawing.Point(772, 293);
+            this.buttonEGInstallWSPathBrowse.Location = new System.Drawing.Point(769, 350);
             this.buttonEGInstallWSPathBrowse.Name = "buttonEGInstallWSPathBrowse";
             this.buttonEGInstallWSPathBrowse.Size = new System.Drawing.Size(75, 23);
             this.buttonEGInstallWSPathBrowse.TabIndex = 13;
@@ -494,7 +500,7 @@ namespace Hack2022
             // 
             // buttonDownloadsPathBrowse
             // 
-            this.buttonDownloadsPathBrowse.Location = new System.Drawing.Point(772, 250);
+            this.buttonDownloadsPathBrowse.Location = new System.Drawing.Point(769, 307);
             this.buttonDownloadsPathBrowse.Name = "buttonDownloadsPathBrowse";
             this.buttonDownloadsPathBrowse.Size = new System.Drawing.Size(75, 23);
             this.buttonDownloadsPathBrowse.TabIndex = 12;
@@ -504,7 +510,7 @@ namespace Hack2022
             // 
             // textBoxEGInstallWSExePath
             // 
-            this.textBoxEGInstallWSExePath.Location = new System.Drawing.Point(240, 294);
+            this.textBoxEGInstallWSExePath.Location = new System.Drawing.Point(237, 351);
             this.textBoxEGInstallWSExePath.Name = "textBoxEGInstallWSExePath";
             this.textBoxEGInstallWSExePath.ReadOnly = true;
             this.textBoxEGInstallWSExePath.Size = new System.Drawing.Size(526, 23);
@@ -512,7 +518,7 @@ namespace Hack2022
             // 
             // textBoxDownloadsPath
             // 
-            this.textBoxDownloadsPath.Location = new System.Drawing.Point(240, 251);
+            this.textBoxDownloadsPath.Location = new System.Drawing.Point(237, 308);
             this.textBoxDownloadsPath.Name = "textBoxDownloadsPath";
             this.textBoxDownloadsPath.ReadOnly = true;
             this.textBoxDownloadsPath.Size = new System.Drawing.Size(526, 23);
@@ -521,7 +527,7 @@ namespace Hack2022
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 297);
+            this.label4.Location = new System.Drawing.Point(42, 354);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(162, 15);
             this.label4.TabIndex = 9;
@@ -530,7 +536,7 @@ namespace Hack2022
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(114, 254);
+            this.label5.Location = new System.Drawing.Point(111, 311);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(93, 15);
             this.label5.TabIndex = 8;
@@ -540,7 +546,7 @@ namespace Hack2022
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(253, 213);
+            this.label3.Location = new System.Drawing.Point(250, 270);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(155, 21);
             this.label3.TabIndex = 7;
@@ -550,7 +556,7 @@ namespace Hack2022
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(253, 19);
+            this.label1.Location = new System.Drawing.Point(250, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(212, 21);
             this.label1.TabIndex = 6;
@@ -558,7 +564,7 @@ namespace Hack2022
             // 
             // buttonAzureSaveSettings
             // 
-            this.buttonAzureSaveSettings.Location = new System.Drawing.Point(411, 158);
+            this.buttonAzureSaveSettings.Location = new System.Drawing.Point(408, 215);
             this.buttonAzureSaveSettings.Name = "buttonAzureSaveSettings";
             this.buttonAzureSaveSettings.Size = new System.Drawing.Size(154, 23);
             this.buttonAzureSaveSettings.TabIndex = 5;
@@ -568,7 +574,7 @@ namespace Hack2022
             // 
             // buttonTestConnection
             // 
-            this.buttonTestConnection.Location = new System.Drawing.Point(584, 158);
+            this.buttonTestConnection.Location = new System.Drawing.Point(581, 215);
             this.buttonTestConnection.Name = "buttonTestConnection";
             this.buttonTestConnection.Size = new System.Drawing.Size(130, 23);
             this.buttonTestConnection.TabIndex = 4;
@@ -578,7 +584,7 @@ namespace Hack2022
             // 
             // textBoxConnectionString
             // 
-            this.textBoxConnectionString.Location = new System.Drawing.Point(240, 109);
+            this.textBoxConnectionString.Location = new System.Drawing.Point(237, 166);
             this.textBoxConnectionString.Name = "textBoxConnectionString";
             this.textBoxConnectionString.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.textBoxConnectionString.Size = new System.Drawing.Size(607, 23);
@@ -586,7 +592,7 @@ namespace Hack2022
             // 
             // textBoxFileShareName
             // 
-            this.textBoxFileShareName.Location = new System.Drawing.Point(240, 59);
+            this.textBoxFileShareName.Location = new System.Drawing.Point(237, 116);
             this.textBoxFileShareName.Name = "textBoxFileShareName";
             this.textBoxFileShareName.Size = new System.Drawing.Size(395, 23);
             this.textBoxFileShareName.TabIndex = 2;
@@ -594,7 +600,7 @@ namespace Hack2022
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 109);
+            this.label2.Location = new System.Drawing.Point(27, 166);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(177, 15);
             this.label2.TabIndex = 1;
@@ -603,7 +609,7 @@ namespace Hack2022
             // label_FileShareName
             // 
             this.label_FileShareName.AutoSize = true;
-            this.label_FileShareName.Location = new System.Drawing.Point(82, 62);
+            this.label_FileShareName.Location = new System.Drawing.Point(79, 119);
             this.label_FileShareName.Name = "label_FileShareName";
             this.label_FileShareName.Size = new System.Drawing.Size(125, 15);
             this.label_FileShareName.TabIndex = 0;
@@ -641,6 +647,36 @@ namespace Hack2022
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(50, 31);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(151, 27);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Riposte Core";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(50, 32);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(150, 27);
+            this.label17.TabIndex = 31;
+            this.label17.Text = "Essential CP";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(79, 31);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(100, 27);
+            this.label18.TabIndex = 32;
+            this.label18.Text = "Settings";
             // 
             // Main
             // 
@@ -723,6 +759,9 @@ namespace Hack2022
         private System.Windows.Forms.ComboBox comboBox_ECP_SubVersion;
         private System.Windows.Forms.ComboBox comboBox_ECP_Version;
         private System.Windows.Forms.Button button_ECP_GetVersionsList;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
     }
 }
 
