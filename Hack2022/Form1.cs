@@ -319,12 +319,15 @@ namespace Hack2022
         // Version Drop Down - On Selection.
         private void comboBoxRiposteCore_Version_SelectedIndexChanged(object sender, EventArgs e)
         {
+            progressBarRiposteCore_Download.Value = 0;
             UpdateSubVersionDropDownList(comboBoxRiposteCore_Version, comboBoxRiposteCode_SubVersion);
         }
 
         // Sub-Version Drop Down - On Selection.
         private void comboBoxRiposteCode_SubVersion_SelectedIndexChanged(object sender, EventArgs e)
         {
+            progressBarRiposteCore_Download.Value = 0;
+
             if (IsSubVersionValid(comboBoxRiposteCode_SubVersion))
             {
                 buttonRiposteCore_Download.Enabled = true;
@@ -367,12 +370,15 @@ namespace Hack2022
         // Version Drop Down - On Selection.
         private void comboBox_ECP_Version_SelectedIndexChanged(object sender, EventArgs e)
         {
+            progressBar_ECP_ProgressBar.Value = 0;
             UpdateSubVersionDropDownList(comboBox_ECP_Version, comboBox_ECP_SubVersion);
         }
 
         // Sub-Version Drop Down - On Selection.
         private void comboBox_ECP_SubVersion_SelectedIndexChanged(object sender, EventArgs e)
         {
+            progressBar_ECP_ProgressBar.Value = 0;
+
             if (IsSubVersionValid(comboBox_ECP_SubVersion))
             {
                 button_ECP_Download.Enabled = true;
