@@ -88,6 +88,7 @@ namespace Hack2022
             if (client == null) return false;
             ;
             Response<bool> exists = client.Exists();
+            if (exists.Value == false) return false;
 
             List<ShareFileItem> requiredDirs = client.GetDirectories(Helper.GetRequiredDirectoryNames(), Constants.AzurePaths.TestBuildsAzurePath);
 
